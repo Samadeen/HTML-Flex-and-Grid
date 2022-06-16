@@ -129,7 +129,8 @@ p {
   color: black;
   margin-bottom: 1rem;
 }
-.attribution a {
+
+.attribution p {
   color: hsl(228, 45%, 44%);
 }
 
