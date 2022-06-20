@@ -80,6 +80,7 @@ p {
 
 .container {
   padding: 1.5rem;
+  max-width: 410px;
 }
 
 .card {
@@ -220,6 +221,7 @@ p {
 
 @media (max-width: 400px) {
   .container {
+    max-width: 400px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -240,16 +242,7 @@ p {
   }
 
   .grid__container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     max-width: 95vw;
-    margin: 1rem auto;
-  }
-
-  .grid__container div {
-    height: 10rem;
-    width: 90%;
   }
 }
 
